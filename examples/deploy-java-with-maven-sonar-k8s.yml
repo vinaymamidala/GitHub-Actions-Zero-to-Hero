@@ -48,3 +48,4 @@ jobs:
         args: apply -f kubernetes/
       env:
         KUBECONFIG: ${{ env.KUBECONFIG }}
+        
